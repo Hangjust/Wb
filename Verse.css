@@ -75,7 +75,7 @@ main {
 .container .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
-    justify-content: center; /* Add this line */
+    justify-content: center; 
 }
 
 .box {

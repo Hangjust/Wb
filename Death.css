@@ -105,9 +105,9 @@ section img{
 
 #Devil {
     top: 400px;
-    width: 500px !important; /* Adjust as needed */
+    width: 500px !important;
     height: auto !important;
-    left: 600px; /* Adjust as needed */
+    left: 600px;
 
 }
 
@@ -134,5 +134,5 @@ section img{
 
 #Jesus {
     position: absolute;
-    top: 0px; /* Adjust as needed */
+    top: 0px;
 }
