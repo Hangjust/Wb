@@ -57,9 +57,82 @@ header ul a{
 
 
 main {
-    position: relative;
+    position: absolute;
     background-color: #333;
     height: 100vh;
     width: 208vh;
     overflow: hidden;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: auto%;
+    object-fit: contain;
+}
+
+
+#text{
+    position: absolute;
+    z-index: 10;
+    color: black;
+    white-space: nowrap;
+    font-size: 7.5vw;
+    font-size: 1.5em;
+}
+
+#btn{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background-color: #fff;
+    color: #333;
+    font-size: 1.5em;
+}
+
+#Devil {
+    top: 400px;
+    width: 500px !important; /* Adjust as needed */
+    height: auto !important;
+    left: 600px; /* Adjust as needed */
+
+}
+
+.sec{
+    position: relative;
+    padding: 100px;
+}   
+
+.sec h1{
+    padding-top: 400px;
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.sec p{
+    padding-top: 100px;
+    -webkit-text-stroke: 2.1px black;
+    color: rgb(255, 255, 255);
+    font-size: 2.5em;
+
+
+}
+
+#Jesus {
+    position: absolute;
+    top: 0px; /* Adjust as needed */
 }
